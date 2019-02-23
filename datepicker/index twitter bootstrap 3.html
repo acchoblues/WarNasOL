@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Datepicker author by @Andgaa </title>
+	
+	<!--this css for bootstrap 3-->
+	<link href="css/bootstrap3.css" rel="stylesheet" media="screen">
+    <link href="css/datepicker3.css" rel="stylesheet">
+     
+</head>
+
+<body>
+
+<div class="container">
+	<h1>Date picker for Bootstrap 3</h1>
+	<form name="datepicker3" action="#" method="get">
+		<div class="form-group">      	
+    	<label class="col-sm-2 control-label"> DATE </label>
+        	<div class="col-sm-3"> 
+           	<div class="input-group date" data-date="" data-date-format="yyyy-mm-dd">
+      		<input class="form-control" type="text" name="date">
+      		<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+            </div>
+         </div>
+	</form>
+</div>
+
+	<!-- this java script must be appear when you use twitter bootstrop -->
+    <script src="js/jquery.js"></script>
+    
+    
+	<!--this datepicker java script for bootstrap 3-->
+    <script src="js/bootstrap-datepicker3.js"></script>
+    
+	<script>
+	//options method for call datepicker
+	$(".input-group.date").datepicker({ autoclose: true, todayHighlight: true });
+	
+    </script>
+	
+</body>
+</html>
