@@ -4,4 +4,4 @@ Aplikasi ini merupakan pengembangan dari aplikasi sebelumnya yaitu Aplikasi Toko
 yang di bangun dengan menggunakan PHP native database MySQL dan Bootstrap 3, untuk aplikasi lainnya 
 dan tutorial lainnya bisa menuju link berikut ini www.hakkoblogs.com
 
-![alt text](https://raw.githubusercontent.com/acchoblues/WarNasOL/branch/path/to/gambar-index.png)
+![alt text](https://github.com/acchoblues/WarNasOL/branch/path/to/gambar-index.png)
